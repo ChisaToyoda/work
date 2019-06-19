@@ -1,0 +1,400 @@
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+body{
+  background-image: url("../images/index4.jpg");
+  background-size:cover;
+  text-align: center;
+  font-family:  'Special Elite', 'Kosugi Maru',cursive;
+  color: #ffffff;
+  line-height:2.0;
+  cursor: url("../images/cursor.png"),auto
+}
+
+
+img.menu{
+  width:70%;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 5px;
+  margin: 0 auto
+  }
+
+table#menu{
+    table-layout: fixed;
+    width:70%;
+}
+
+td,th{
+  padding: 10px;
+  text-align: center;
+  color:#ffffcc;
+}
+th:first-of-type,
+td:first-of-type{
+  background-color: rgba(0,100,255,0.3);
+}
+th:nth-of-type(1),
+td:nth-of-type(1){
+  background-color: rgba(0,100,255,0.2);
+}
+th:nth-of-type(2),
+td:nth-of-type(2){
+  background-color: rgba(0,100,255,0.4);
+}
+th:nth-of-type(3),
+td:nth-of-type(3){
+    background-color: rgba(0,50,255,0.2);
+}
+th:nth-of-type(4),
+td:nth-of-type(4){
+    background-color: rgba(0,100,255,0.8);
+}
+.voice {
+ position:relative;
+ padding: 35px 20px 15px;
+ margin: 2.5em auto;
+ width: 50%;
+ color: #555555; /* 文字色 */
+ background-color: #e8ddbd;
+ box-shadow: inset 0 0 40px rgba(204, 186, 136,1), 0 2px 2px #ccc;
+}
+.title-voice {
+ position: absolute;
+ top: -15px;
+ left: 30px;
+ padding: 4px 20px;
+ color: #555555; /*タイトル色*/
+ font-weight: bold;
+ background-color: rgba(255,255,255,.4);
+ border-left: 2px dotted rgba(0,0,0,.1);
+ border-right: 2px dotted rgba(0,0,0,.1);
+ box-shadow: 0 0 5px rgba(0,0,0,0.2);
+ transform: rotate(-5deg);
+}
+
+
+.button {
+  padding:15px 30px;
+  margin:0 0 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  }
+.button:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+#form1{
+  position: relative;
+  left:100px;
+  text-align: left;
+}
+
+.formtitle{color:#fff}
+
+img.photos{
+  width:35%;
+  opacity: 0;
+   transition: opacity 1s ease-out;
+}
+
+img.photos:hover{opacity: 1.0;
+
+}
+
+#panya{
+  float:left;
+  width: 50%;
+}
+#topmsg{
+  float:right;
+  width: 50%;
+  text-align: left;
+  }
+
+#staff{
+  clear:both;
+  width: 100%;
+  margin-top: 100px;
+}
+
+h2{
+  clear: both;
+  font-size: 50px;
+}
+#osono{
+  float:left;
+  width: 50%
+  }
+
+#kiki{
+  float: right;
+  width: 50%
+}
+
+#ourbreads h1{
+  font-size: 50px;
+}
+
+video{
+  width: 70%;
+}
+
+#milk{
+  position:relative;
+  width:50%;
+  left:5vw;
+}
+
+#honey{
+  position:relative;
+  width:50%;
+  top:-10vh;
+  left:50vw;
+}
+
+#flour{
+  position:relative;
+  width:50%;
+  top:-10vh;
+  left:10vw;
+}
+
+#coffee{
+  position:relative;
+  width:50%;
+  top:-15vh;
+  left:50vw;
+}
+
+img.voice{
+  width:50%;
+}
+/*ヘッダー↓*/
+
+
+.headerlogo{
+  float:left;
+  width:30%;
+}
+
+
+
+#header {
+  clear:both;
+  position: fixed;
+  top:8em;
+  right: 9em;
+  background: rbga(0,255,100,0.5);
+  width: 3em;
+  height: 3em;
+  border-radius: 5em;
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  cursor: pointer;
+  border: 1em solid #6600cc;
+}
+#header:after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 1em;
+  height: 0.2em;
+  border-top: 0.6em double #fff;
+  border-bottom: 0.2em solid #fff;
+}
+#header ul {
+  list-style: none;
+  padding: 0;
+}
+#header li {
+  width: 5em;
+  height: 1.4em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-align: center;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  transition: all 1s;
+  background:rbga(0,255,100,0.2);
+  opacity: 0;
+  z-index: -1;
+}
+#header:hover li {
+  opacity: 1;
+}
+/**
+ * Add a pseudo element to cover the space
+ * between the links. This is so the menu
+ * does not lose :hover focus and disappear
+ */
+#header:hover ul::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  left: 50%;
+  top: -5.0em;
+  /**
+   * The pseudo-element is a semi-circle
+   * created with CSS. Top, bottom, and right
+   * borders are 6.5em (left being 0), and then
+   * a border-radius is added to the two corners
+   * on the right.
+   */
+  border-width: 6.5em;
+  border-radius: 0 7.5em 7.5em 0;
+  border-left: 0;
+  border-style: solid;
+  /**
+   * Have to have a border color for the border
+   * to be hoverable. I'm using a very light one
+   * so that it looks invisible.
+   */
+  border-color: rgba(0,0,0,0.01);
+  /**
+   * Put the psuedo-element behind the links
+   * (So they can be clicked on)
+   */
+  z-index: -1;
+  /**
+   * Make the cursor default so it looks like
+   * nothing is there
+   */
+  cursor: default;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  /**
+   * This is to vertically center the text on the
+   * little tab-like things that the text is on.
+   */
+  line-height: 1.5em;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+}
+#header ul {
+  transform: rotate(180deg) translateY(-2em);
+  transition: 1s all;
+}
+#header:hover ul {
+  transform: rotate(0deg) translateY(-1em);
+}
+#header li:hover {
+  background: #6600cc;
+  z-index: 10;
+}
+
+#header li:nth-of-type(1) {
+  transform: rotate(-127deg);
+  position: absolute;
+  left: -4.5em;
+  top: -3.5em;
+}
+#header li:nth-of-type(2) {
+  transform: rotate(-65deg);
+  position: absolute;
+  left: 1em;
+  top: -4em;
+}
+#header li:nth-of-type(3) {
+  transform: rotate(-10deg);
+  position: absolute;
+  left: 5em;
+  top: 0.3em;
+}
+#header li:nth-of-type(4) {
+  transform: rotate(45deg);
+  position: absolute;
+  left: 3em;
+  top: 5.5em;
+}
+
+#header li:nth-of-type(5) {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -1.2em;
+  top: 7em;
+}
+
+#header li:nth-of-type(6) {
+  transform: rotate(135deg);
+  position: absolute;
+  left: -5.2em;
+  top: 5.2em;
+}
+
+#header li:nth-of-type(7) {
+  transform: rotate(180deg);
+  position: absolute;
+  left: -7em;
+  top: 1em;
+}
+
+.clearboth{
+  clear: both;
+}
+
+/*ヘッダー↑*/
+
+/*フッター↓*/
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+#navi{
+  clear:both;
+  height: 300px;
+  background-color: #000000;
+}
+
+.footerlogo{
+  float:left;
+  width:30%;
+}
+img.footerlogo{
+  width:150px;
+}
+
+ul.footer li {
+display: inline;
+padding-left: 20px;
+}
+
+ul.footer li a{
+text-decoration: none;
+}
+
+ul.footerinner li {
+display: inline;
+padding-left: 20px;
+}
+
+ul li a:hover{
+  color:#ff44ff;
+}
+
+a:link{color:#666666;}
+a:visited{color:#888888;}
+
+.link{padding:3em;}
+.fb-like{
+    padding-left: 2em;
+}
+.line-it-button{
+  padding-left: 2em;
+  padding-top: 0.5em;}
+/*フッター↑*/

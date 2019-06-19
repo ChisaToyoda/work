@@ -1,0 +1,35 @@
+<!DOCUTYPE html>
+<html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>GooChokiPan Inc.DELIVERY</title>
+  <link rel="stylesheet" href="css/style-delivery.css">
+
+</head>
+<body>
+
+<div>
+  <video src="images/delivery1.mp4" autoplay>
+</div>
+<a href="howspecial.html"><img src="images/howspecial1.jpg" alt=""></a>
+<a href="howspecial.html#events"><img src="images/howspecial2.jpg"  alt=""></a>
+
+<footer id="navi">
+  <ul>
+    <li><a href="index.html">TOP</a></li>
+    <li><a href="aboutus.html">ABOUT US</a></li>
+    <li><a href="ourbreads.html">OUR BREADS</a></li>
+      <ul>
+        <li><a href="madefrom.html">MADE FROM</a></li>
+        <li><a href="menucafe.html">MENU&CAFE</a></li>
+      </ul>
+    <li><a href="delivery.html">DELIVERY</a></li>
+      <ul>
+      <li><a href="howspecial.html">HOW SPECIAL</a></li>
+      <li><a href="booknow.html">BOOK NOW</a></li>
+    </ul>
+    <li><a href="access.html">ACCESS</a></li>
+  </ul></footer>
+</body>
+</html>

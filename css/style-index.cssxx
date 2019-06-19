@@ -1,0 +1,38 @@
+body{
+  background-image: url("../images/index4.jpg");
+  font-family: 'Aladin', cursive;
+}
+
+h1{
+  color:#ffffff;
+}
+.photos{
+  width:50%;
+}
+#mvimg{
+  width:10%;
+}
+#navi{
+  height: 160px;
+}
+
+#navi ul li{
+  list-style-type: none;
+  padding: 0 20px 0 20px;
+}
+
+#navi ul li a{
+  display:inline-block;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+#navi a:link{
+  color:#ffffff;
+  text-decoration: none;
+}
+
+#navi a:visited{
+  color:#ffff55;
+  text-decoration: none;
+}
